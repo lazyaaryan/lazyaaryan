@@ -1,35 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 130" width="100%" height="100%">
-  <defs>
-    <style>
-      .manga-bubble {
-        fill: #ffffff;
-        stroke: #000000;
-        stroke-width: 4.2;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-      }
-
-      .manga-hatch {
-        stroke: #000000;
-        stroke-width: 1.6;
-        stroke-linecap: round;
-      }
-
-      /* Native font fallback chain that works reliably across all GitHub environments */
-      .manga-text {
-        font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', 'Caveat', cursive, sans-serif;
-        font-size: 44px;
-        font-weight: bold;
-        fill: #000000;
-        text-anchor: middle;
-        dominant-baseline: central;
-      }
-    </style>
-  </defs>
-
   <g id="speech-bubble">
-    <!-- Organic Manga Speech Balloon with Shorter, Softened Left Tail -->
-    <path class="manga-bubble" d="
+    <!-- Organic Manga Speech Balloon -->
+    <path fill="#ffffff" stroke="#000000" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round" d="
       M 115,48
       C 115,22 220,10 470,10
       C 720,10 825,22 825,65
@@ -38,13 +10,21 @@
       C 100,83 68,74 38,66
       C 64,60 92,56 115,48 Z" />
 
-    <!-- 2 Short, Subtle Upper-Right Manga Accent Lines -->
-    <line x1="775" y1="32" x2="795" y2="26" class="manga-hatch" />
-    <line x1="783" y1="40" x2="803" y2="34" class="manga-hatch" />
+    <!-- 2 Short Upper-Right Manga Accent Lines -->
+    <line x1="775" y1="32" x2="795" y2="26" stroke="#000000" stroke-width="1.6" stroke-linecap="round" />
+    <line x1="783" y1="40" x2="803" y2="34" stroke="#000000" stroke-width="1.6" stroke-linecap="round" />
   </g>
 
-  <!-- Text with System Cursive Fallbacks for GitHub Markdown -->
-  <text x="495" y="65" class="manga-text">Namaste, I am Aaryan!</text>
+  <!-- Sharp, Readable Manga Text -->
+  <text x="495" y="66" 
+        fill="#000000" 
+        font-family="Impact, 'Arial Black', 'Trebuchet MS', sans-serif" 
+        font-size="36" 
+        letter-spacing="2" 
+        text-anchor="middle" 
+        dominant-baseline="central">
+    NAMASTE, I AM AARYAN!
+  </text>
 </svg>
 
 
