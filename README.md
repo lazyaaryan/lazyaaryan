@@ -26,4 +26,13 @@
 
 <br><br><br><br><br><br>
 
+<h2>Languages & Tools 🛠️ :</h2>
+
+<p align="center">
+
+  <img src="https://skillicons.dev/icons?i=python,c,cpp,js,ts,react,tailwind,nodejs,postgres,git,github,vscode,netlify,vercel,arduino,raspberrypi&perline=8" />
+
+</p>
+
+<br><br>
 
