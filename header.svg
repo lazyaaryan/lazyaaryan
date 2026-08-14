@@ -1,52 +1,154 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 130" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
   <defs>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&amp;family=Caveat:wght@700&amp;display=swap');
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#245b3b"/>
+      <stop offset="0.5" stop-color="#1d6b45"/>
+      <stop offset="1" stop-color="#104b37"/>
+    </linearGradient>
 
-      .manga-bubble {
-        fill: #ffffff;
-        stroke: #000000;
-        stroke-width: 4.2;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-      }
+    <filter id="rough">
+      <feTurbulence
+        type="fractalNoise"
+        baseFrequency=".018"
+        numOctaves="2"
+        seed="7"
+        result="noise"/>
+      <feDisplacementMap
+        in="SourceGraphic"
+        in2="noise"
+        scale="3"/>
+    </filter>
 
-      .manga-hatch {
-        stroke: #000000;
-        stroke-width: 1.6;
-        stroke-linecap: round;
-      }
-
-      /* Hand-drawn style matching Swyx banner */
-      .manga-text {
-        font-family: 'Caveat', 'Architects Daughter', cursive, sans-serif;
-        font-size: 52px;
-        font-weight: 700;
-        fill: #000000;
-        text-anchor: middle;
-        dominant-baseline: central;
-      }
-    </style>
+    <filter id="shadow">
+      <feDropShadow
+        dx="0"
+        dy="3"
+        stdDeviation="2"
+        flood-opacity=".28"/>
+    </filter>
   </defs>
 
-  <g id="speech-bubble">
-    <!-- Organic Manga Speech Balloon with Shorter, Softened Left Tail -->
-    <path class="manga-bubble" d="
-      M 115,48
-      C 115,22 220,10 470,10
-      C 720,10 825,22 825,65
-      C 825,108 720,120 470,120
-      C 280,120 165,112 125,90
-      C 100,83 68,74 38,66
-      C 64,60 92,56 115,48 Z" />
+  <!-- Green hand-drawn banner -->
+  <path
+    d="M73 72
+       Q82 47 112 48
+       Q310 39 600 45
+       Q880 38 1088 48
+       Q1121 50 1128 78
+       L1124 213
+       Q1117 241 1086 244
+       Q820 251 602 246
+       Q365 253 110 243
+       Q82 240 73 214 Z"
+    fill="url(#bg)"
+    stroke="#050907"
+    stroke-width="12"
+    stroke-linejoin="round"
+    filter="url(#rough)"/>
 
-    <!-- 2 Short, Subtle Upper-Right Manga Accent Lines -->
-    <line x1="775" y1="32" x2="795" y2="26" class="manga-hatch" />
-    <line x1="783" y1="40" x2="803" y2="34" class="manga-hatch" />
+  <!-- Subtle painted texture -->
+  <path
+    d="M92 95
+       Q300 68 500 88
+       T910 77
+       T1102 94
+       L1100 205
+       Q875 188 660 207
+       T290 195
+       T92 210 Z"
+    fill="#4b9962"
+    opacity=".18"/>
+
+  <path
+    d="M90 151
+       Q280 125 470 145
+       T820 135
+       T1110 150"
+    fill="none"
+    stroke="#79b77a"
+    stroke-width="26"
+    opacity=".10"
+    stroke-linecap="round"/>
+
+  <!-- Sketchy corner hatching -->
+  <g
+    fill="none"
+    stroke="#050907"
+    stroke-width="4"
+    stroke-linecap="round">
+
+    <path d="M82 69 L130 112"/>
+    <path d="M88 58 L142 105"/>
+    <path d="M102 51 L153 91"/>
+
+    <path d="M1080 57 L1120 99"/>
+    <path d="M1067 49 L1123 88"/>
+    <path d="M1050 47 L1108 77"/>
+
+    <path d="M82 211 L130 171"/>
+    <path d="M94 229 L142 181"/>
+
+    <path d="M1080 226 L1120 178"/>
+    <path d="M1060 240 L1113 190"/>
   </g>
 
-  <!-- Text: Title Case Hand-Written Style -->
-  <text x="495" y="63" class="manga-text">Namaste, I am Aaryan!</text>
-</svg>
+  <!-- Rough outside strokes -->
+  <g
+    fill="none"
+    stroke="#050907"
+    stroke-width="6"
+    stroke-linecap="round">
 
+    <path d="M62 81 Q80 55 103 47"/>
+    <path d="M57 92 Q73 62 94 53"/>
+
+    <path d="M1140 84 Q1127 57 1108 45"/>
+    <path d="M1144 96 Q1132 70 1115 57"/>
+
+    <path d="M61 214 Q76 238 103 249"/>
+    <path d="M1138 211 Q1125 238 1102 247"/>
+  </g>
+
+  <!-- Main text -->
+  <text
+    x="600"
+    y="176"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="73"
+    font-weight="700"
+    font-style="italic"
+    letter-spacing="-2"
+    fill="#070b08"
+    stroke="#f7f2df"
+    stroke-width="13"
+    stroke-linejoin="round"
+    paint-order="stroke"
+    filter="url(#shadow)">
+    Namaste, I’m Aaryan!
+  </text>
+
+  <!-- Decorative sparkle -->
+  <path
+    d="M181 100
+       L188 84
+       L194 100
+       L209 106
+       L194 111
+       L187 128
+       L181 111
+       L166 105 Z"
+    fill="#f7f2df"
+    stroke="#050907"
+    stroke-width="3"/>
+
+  <path
+    d="M1014 100
+       Q1028 91 1038 101
+       Q1028 108 1014 116"
+    fill="none"
+    stroke="#dbe9df"
+    stroke-width="5"
+    stroke-linecap="round"/>
+</svg>
 
