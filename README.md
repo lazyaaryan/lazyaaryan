@@ -33,32 +33,4 @@
 
 <hr>
 
-<h2>Projects :</h2>
 
-<hr>
-
-- → **Capstone Project**
-- → **Flashcard App**
-
-<br>
-
-<hr>
-
-<h2>Tech Stack :</h2>
-
-<hr>
-
-- **Languages:** Python, C++, JavaScript
-- **Machine Learning:** Python, NumPy, Pandas
-- **Backend:** Node.js, Express
-- **Database:** PostgreSQL
-- **Tools:** Git, GitHub, VS Code
-- **Embedded:** C/C++, Microcontrollers
-
-<br>
-
-<hr>
-
-<p align="center">
-  <i>Why spend 1 hour doing something when you can spend 10 hours automating it...</i>
-</p>
