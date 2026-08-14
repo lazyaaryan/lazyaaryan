@@ -37,6 +37,7 @@
 
 <br><br>
 
+
 <h2>Contact Me :</h2>
 
 <p>
@@ -45,57 +46,22 @@ If you want to reach out to me about anything, feel free to contact me :)
 
 <br>
 
-<div align="center">
-
-<a href="mailto:44ryanwork@gmail.com">
-  <img
-    src="https://skillicons.dev/icons?i=gmail"
-    width="90"
-    alt="Gmail"
-  />
-</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-<a href="https://www.linkedin.com/in/lazyaaryan">
-  <img
-    src="https://skillicons.dev/icons?i=linkedin"
-    width="90"
-    alt="LinkedIn"
-  />
-</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-<a href="https://x.com/aaryantwts">
-  <img
-    src="https://skillicons.dev/icons?i=x"
-    width="90"
-    alt="X"
-  />
-</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-<a href="https://instagram.com/lazyaaryan">
-  <img
-    src="https://skillicons.dev/icons?i=instagram"
-    width="90"
-    alt="Instagram"
-  />
-</a>
-
-</div>
+<p align="center">
+<a href="mailto:44ryanwork@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="80" alt="Gmail"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/lazyaaryan"><img src="https://skillicons.dev/icons?i=linkedin" width="80" alt="LinkedIn"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://x.com/aaryantwts"><img src="https://cdn.simpleicons.org/x/ffffff" width="80" alt="X"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://instagram.com/lazyaaryan"><img src="https://skillicons.dev/icons?i=instagram" width="80" alt="Instagram"></a>
+</p>
 
 <br>
 
 <p align="center">
-  <a href="https://www.buymeacoffee.com/rozoa">
-    <img
-      src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-      width="180"
-      alt="Buy Me a Coffee"
-    />
+<a href="https://www.buymeacoffee.com/rozoa">
+<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="180" alt="Buy Me a Coffee">
+</a>
+</p>
+
+<br><br>
   </a>
 </p>
 
