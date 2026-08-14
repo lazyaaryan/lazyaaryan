@@ -17,30 +17,27 @@
 
 <br>
 
-###  Learning :
+### Learning :
 
- → Data Structures & Algorithms<br>
- → Backend<br>
- → Embedded Systems<br>
- → PostgreSQL<br>
+→ Data Structures & Algorithms<br>
+→ Backend<br>
+→ Embedded Systems<br>
+→ PostgreSQL<br>
 
 <br><br><br><br><br><br>
 
 <h2>Languages & Tools 🛠️ :</h2>
 
 <p align="center">
-
-  <img src="https://skillicons.dev/icons?i=python,c,cpp,js,ts,react,tailwind,nodejs,postgres,git,github,vscode,netlify,vercel,arduino,raspberrypi&perline=8" />
-
+  <img
+    src="https://skillicons.dev/icons?i=python,c,cpp,js,ts,react,tailwind,nodejs,postgres,git,github,vscode,netlify,vercel,arduino,raspberrypi&perline=8"
+    alt="Languages and Tools"
+  />
 </p>
 
 <br><br>
 
-
-
 <h2>Contact Me :</h2>
-
-
 
 <p>
 If you want to reach out to me about anything, feel free to contact me :)
@@ -51,22 +48,41 @@ If you want to reach out to me about anything, feel free to contact me :)
 <div align="center">
 
 <a href="mailto:44ryanwork@gmail.com">
-  <img src="https://skillicons.dev/icons?i=gmail" width="90" alt="Gmail">
+  <img
+    src="https://skillicons.dev/icons?i=gmail"
+    width="90"
+    alt="Gmail"
+  />
 </a>
+
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/">
-  <img src="https://skillicons.dev/icons?i=linkedin" width="90" alt="LinkedIn">
+<a href="https://www.linkedin.com/in/lazyaaryan">
+  <img
+    src="https://skillicons.dev/icons?i=linkedin"
+    width="90"
+    alt="LinkedIn"
+  />
 </a>
+
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 <a href="https://x.com/aaryantwts">
-  <img src="https://skillicons.dev/icons?i=twitter" width="90" alt="X">
+  <img
+    src="https://skillicons.dev/icons?i=x"
+    width="90"
+    alt="X"
+  />
 </a>
+
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 <a href="https://instagram.com/lazyaaryan">
-  <img src="https://skillicons.dev/icons?i=instagram" width="90" alt="Instagram">
+  <img
+    src="https://skillicons.dev/icons?i=instagram"
+    width="90"
+    alt="Instagram"
+  />
 </a>
 
 </div>
@@ -79,7 +95,7 @@ If you want to reach out to me about anything, feel free to contact me :)
       src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
       width="180"
       alt="Buy Me a Coffee"
-    >
+    />
   </a>
 </p>
 
