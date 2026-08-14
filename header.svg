@@ -1,82 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 130" width="100%" height="100%">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Bangers&amp;family=Permanent+Marker&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&amp;family=Caveat:wght@700&amp;display=swap');
 
-      .bubble-fill {
+      .manga-bubble {
         fill: #ffffff;
-        stroke: #090d16;
-        stroke-width: 4.5;
+        stroke: #000000;
+        stroke-width: 4.2;
         stroke-linecap: round;
         stroke-linejoin: round;
       }
 
-      .ink-rough {
-        fill: none;
-        stroke: #090d16;
-        stroke-width: 2.2;
+      .manga-hatch {
+        stroke: #000000;
+        stroke-width: 1.6;
         stroke-linecap: round;
       }
 
-      .hatch-line {
-        stroke: #090d16;
-        stroke-width: 1.8;
-        stroke-linecap: round;
-      }
-
+      /* Hand-drawn style matching Swyx banner */
       .manga-text {
-        font-family: 'Bangers', 'Permanent Marker', cursive, sans-serif;
-        font-size: 46px;
-        letter-spacing: 2.5px;
-        fill: #090d16;
+        font-family: 'Caveat', 'Architects Daughter', cursive, sans-serif;
+        font-size: 52px;
+        font-weight: 700;
+        fill: #000000;
         text-anchor: middle;
         dominant-baseline: central;
       }
     </style>
-
-    <!-- Hand-Inked Manga Distortion Filter -->
-    <filter id="manga-ink" x="-10%" y="-10%" width="120%" height="120%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" result="noise" />
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.8" xChannelSelector="R" yChannelSelector="G" />
-    </filter>
   </defs>
 
-  <g filter="url(#manga-ink)">
-    <!-- Main Hand-Drawn Speech Bubble with Left Tail pointing to avatar -->
-    <path class="bubble-fill" d="
-      M 150,100
-      C 130,45 190,15 450,15
-      C 710,15 760,45 760,100
-      C 760,155 710,185 450,185
-      C 270,185 180,165 140,145
-      L 20,130
-      L 120,112
-      C 115,108 115,104 150,100 Z" />
+  <g id="speech-bubble">
+    <!-- Organic Manga Speech Balloon with Shorter, Softened Left Tail -->
+    <path class="manga-bubble" d="
+      M 115,48
+      C 115,22 220,10 470,10
+      C 720,10 825,22 825,65
+      C 825,108 720,120 470,120
+      C 280,120 165,112 125,90
+      C 100,83 68,74 38,66
+      C 64,60 92,56 115,48 Z" />
 
-    <!-- Second Overlapping Ink Stroke for Hand-Drawn Look -->
-    <path class="ink-rough" d="
-      M 152,98
-      C 132,48 192,18 452,18
-      C 712,18 758,48 758,98
-      C 758,153 712,183 452,183
-      C 272,183 182,163 142,143
-      L 28,131
-      L 122,110 Z" />
-
-    <!-- Subtle Climber Accent: Hand-Inked Mountain Ridge Peak on Top Edge -->
-    <path class="ink-rough" d="M 610,28 L 630,12 L 648,24 L 672,6 L 695,28" stroke-width="3" />
-    <path class="ink-rough" d="M 630,12 L 635,22 M 672,6 L 665,18" stroke-width="1.5" />
-
-    <!-- Manga Edge Hatch Shading Details -->
-    <line x1="720" y1="65" x2="745" y2="55" class="hatch-line" />
-    <line x1="724" y1="75" x2="749" y2="65" class="hatch-line" />
-    <line x1="728" y1="85" x2="753" y2="75" class="hatch-line" />
-
-    <line x1="160" y1="135" x2="140" y2="150" class="hatch-line" />
-    <line x1="172" y1="142" x2="152" y2="157" class="hatch-line" />
+    <!-- 2 Short, Subtle Upper-Right Manga Accent Lines -->
+    <line x1="775" y1="32" x2="795" y2="26" class="manga-hatch" />
+    <line x1="783" y1="40" x2="803" y2="34" class="manga-hatch" />
   </g>
 
-  <!-- Text -->
-  <text x="445" y="100" class="manga-text">Namaste, I am Aaryan!</text>
+  <!-- Text: Title Case Hand-Written Style -->
+  <text x="495" y="63" class="manga-text">Namaste, I am Aaryan!</text>
 </svg>
+
 
