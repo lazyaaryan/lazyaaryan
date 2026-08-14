@@ -1,9 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
+
   <defs>
+
+    <!-- PFP-inspired icy blue gradient -->
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#245b3b"/>
-      <stop offset="0.5" stop-color="#1d6b45"/>
-      <stop offset="1" stop-color="#104b37"/>
+      <stop offset="0" stop-color="#172b45"/>
+      <stop offset="0.35" stop-color="#28577a"/>
+      <stop offset="0.7" stop-color="#326f94"/>
+      <stop offset="1" stop-color="#142b43"/>
+    </linearGradient>
+
+    <!-- subtle icy highlight -->
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b9e4f4" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#dff6ff" stop-opacity=".20"/>
+      <stop offset="1" stop-color="#b9e4f4" stop-opacity="0"/>
     </linearGradient>
 
     <filter id="rough">
@@ -24,11 +35,16 @@
         dx="0"
         dy="3"
         stdDeviation="2"
-        flood-opacity=".28"/>
+        flood-opacity=".35"/>
     </filter>
+
   </defs>
 
-  <!-- Green hand-drawn banner -->
+  <!-- Transparent background -->
+  <rect width="1200" height="300" fill="none"/>
+
+
+  <!-- Main hand-drawn banner -->
   <path
     d="M73 72
        Q82 47 112 48
@@ -40,13 +56,16 @@
        Q820 251 602 246
        Q365 253 110 243
        Q82 240 73 214 Z"
+
     fill="url(#bg)"
-    stroke="#050907"
+    stroke="#050a10"
     stroke-width="12"
     stroke-linejoin="round"
-    filter="url(#rough)"/>
+    filter="url(#rough)"
+  />
 
-  <!-- Subtle painted texture -->
+
+  <!-- Soft painted blue texture -->
   <path
     d="M92 95
        Q300 68 500 88
@@ -56,46 +75,74 @@
        Q875 188 660 207
        T290 195
        T92 210 Z"
-    fill="#4b9962"
-    opacity=".18"/>
 
+    fill="#76aeca"
+    opacity=".16"
+  />
+
+
+  <!-- Icy horizontal glow -->
   <path
-    d="M90 151
-       Q280 125 470 145
-       T820 135
-       T1110 150"
-    fill="none"
-    stroke="#79b77a"
-    stroke-width="26"
-    opacity=".10"
-    stroke-linecap="round"/>
+    d="M95 137
+       Q300 112 490 133
+       T820 124
+       T1105 140"
 
-  <!-- Sketchy corner hatching -->
+    fill="none"
+    stroke="url(#shine)"
+    stroke-width="28"
+    stroke-linecap="round"
+  />
+
+
+  <!-- Dark blue lower shadow -->
+  <path
+    d="M90 196
+       Q310 178 500 194
+       T850 187
+       T1110 198
+       L1100 221
+       Q850 215 620 222
+       T300 218
+       T90 225 Z"
+
+    fill="#071624"
+    opacity=".20"
+  />
+
+
+  <!-- Manga-style corner hatching -->
   <g
     fill="none"
-    stroke="#050907"
+    stroke="#050a10"
     stroke-width="4"
     stroke-linecap="round">
 
+    <!-- top left -->
     <path d="M82 69 L130 112"/>
     <path d="M88 58 L142 105"/>
     <path d="M102 51 L153 91"/>
 
+    <!-- top right -->
     <path d="M1080 57 L1120 99"/>
     <path d="M1067 49 L1123 88"/>
     <path d="M1050 47 L1108 77"/>
 
+    <!-- bottom left -->
     <path d="M82 211 L130 171"/>
     <path d="M94 229 L142 181"/>
 
+    <!-- bottom right -->
     <path d="M1080 226 L1120 178"/>
     <path d="M1060 240 L1113 190"/>
+
   </g>
 
-  <!-- Rough outside strokes -->
+
+  <!-- Rough outer sketch strokes -->
   <g
     fill="none"
-    stroke="#050907"
+    stroke="#050a10"
     stroke-width="6"
     stroke-linecap="round">
 
@@ -107,28 +154,36 @@
 
     <path d="M61 214 Q76 238 103 249"/>
     <path d="M1138 211 Q1125 238 1102 247"/>
+
   </g>
+
 
   <!-- Main text -->
   <text
     x="600"
     y="176"
     text-anchor="middle"
+
     font-family="Georgia, 'Times New Roman', serif"
     font-size="73"
     font-weight="700"
     font-style="italic"
     letter-spacing="-2"
-    fill="#070b08"
-    stroke="#f7f2df"
+
+    fill="#07111b"
+    stroke="#f4f0df"
     stroke-width="13"
     stroke-linejoin="round"
     paint-order="stroke"
+
     filter="url(#shadow)">
+
     Namaste, I’m Aaryan!
+
   </text>
 
-  <!-- Decorative sparkle -->
+
+  <!-- Icy sparkle -->
   <path
     d="M181 100
        L188 84
@@ -138,17 +193,24 @@
        L187 128
        L181 111
        L166 105 Z"
-    fill="#f7f2df"
-    stroke="#050907"
-    stroke-width="3"/>
 
+    fill="#eefaff"
+    stroke="#07111b"
+    stroke-width="3"
+  />
+
+
+  <!-- Small icy accent -->
   <path
     d="M1014 100
        Q1028 91 1038 101
        Q1028 108 1014 116"
+
     fill="none"
-    stroke="#dbe9df"
+    stroke="#d9f3ff"
     stroke-width="5"
-    stroke-linecap="round"/>
+    stroke-linecap="round"
+  />
+
 </svg>
 
