@@ -1,33 +1,14 @@
-<p align="center">
-  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
-    <tr>
-      <!-- 1. AVATAR (left) -->
-      <td valign="middle" style="padding-right: 0;">
-        <img src="https://i.imgur.com/dnR8q4Y.png" alt="Aaryan" 
-             style="width: 90px; height: 90px; border-radius: 50%; border: 4px solid #2F3542; box-shadow: 6px 6px 0 #FF4757; display: block;" />
-      </td>
-
-      <!-- 2. TAIL (middle – triangle pointing left) -->
-      <td valign="middle" style="padding: 0; width: 25px;">
-        <!-- outer triangle (black outline) -->
-        <div style="width: 0; height: 0; border-top: 20px solid transparent; border-bottom: 20px solid transparent; border-right: 25px solid #2F3542;"></div>
-        <!-- inner triangle (white fill, shifted to overlap the outer one) -->
-        <div style="width: 0; height: 0; border-top: 16px solid transparent; border-bottom: 16px solid transparent; border-right: 20px solid #FFF5F5; margin-top: -36px; margin-left: -5px;"></div>
-      </td>
-
-      <!-- 3. SPEECH BUBBLE (right) -->
-      <td valign="middle" style="padding-left: 0;">
-        <div style="background: #FFF5F5; border: 4px solid #2F3542; border-radius: 30px 30px 30px 8px; padding: 18px 28px; box-shadow: 8px 8px 0 #FF4757; font-family: 'Comic Sans MS', cursive, sans-serif;">
-          <span style="font-size: 28px; font-weight: 900; color: #FF4757; letter-spacing: 1px;">Hello World, I'm Aaryan! 🎉</span><br />
-          <span style="font-size: 18px; color: #2F3542; line-height: 1.6;">
-            19-year-old <strong style="color: #FF4757;">ML &amp; AI</strong> enthusiast from India 🇮🇳<br />
-            — learning <strong style="color: #2ED573;">DSA</strong> and exploring <strong style="color: #1E90FF;">Embedded Systems</strong>
-          </span>
-          <div style="margin-top: 8px; font-size: 15px; color: #747D8C;">
-            📧 Gmail &nbsp;·&nbsp; 🔗 LinkedIn &nbsp;·&nbsp; 💻 Codeforces
-          </div>
-        </div>
-      </td>
-    </tr>
-  </table>
-</p>
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="120" viewBox="0 0 650 120">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="6" dy="6" stdDeviation="0" flood-color="#2c3e50" />
+    </filter>
+  </defs>
+  <!-- Main bubble background -->
+  <path d="M 40 20 H 600 A 20 20 0 0 1 620 40 V 80 A 20 20 0 0 1 600 100 H 80 L 30 80 L 40 100 H 40 A 20 20 0 0 1 20 80 V 40 A 20 20 0 0 1 40 20 Z" 
+        fill="#ffffff" stroke="#2c3e50" stroke-width="4" filter="url(#shadow)" />
+  <!-- Text -->
+  <text x="50" y="72" font-family="'Comic Sans MS', 'Arial Black', sans-serif" font-size="34" font-weight="bold" fill="#e74c3c">
+    Hello World, I'm Aaryan! 🎉
+  </text>
+</svg>
