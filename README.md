@@ -15,7 +15,7 @@ Currently exploring **DSA** and **Embedded Systems**, while building things and 
 <td width="45%" align="center">
 
 <img
-  src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGF4OGRha2c0eDJ1cDUxaDdvYnY1cjYyMmJ5bDBqa2tsbHVpcTlqNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/11lxCeKo6cHkJy/giphy.gif"
+  src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2dpb3o1ZGNmZjl2cjRlM3UwYXJqcDRxdzFqdG54amZpM2RiaWxvZCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/firXYsHcjI8a7fUrlh/giphy.gif"
   width="280"
   alt="Intro GIF"
 />
